@@ -72,3 +72,31 @@
     width:auto;
     display:table
 }
+.footer-contacts {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.footer-contacts {
+    padding: 0;
+    justify-content: center;
+}
+
+.footer-contacts li {
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-size: 1rem;
+}
+
+.footer-contacts li .icon {
+    width: 1rem;
+    padding-right: 0.3rem;
+}
+
+@media (min-width: 770px) {
+    .footer-contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+}
